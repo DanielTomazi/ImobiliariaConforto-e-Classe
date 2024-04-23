@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Inconsolata:wght@300&family=Mukta:wght@300&family=PT+Sans&display=swap');
+* {
+padding: 0;
+margin: 0;
+font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: white
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color:#1e052f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+header > a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+@media screen and (max-width: 768px){
+h1 {
+    font-size: 15px;
+}
+header > a {
+    font-size: 12px;
+}}

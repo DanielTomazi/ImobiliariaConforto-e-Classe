@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(255, 255, 255);
+    }
+    
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #pesquisa {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #dcdcdc;
+        width: 80%;
+        height: 50px;
+        border-radius: 5px;
+        margin-top: 50px;
+        padding: 10px;
+    
+    }
+    
+    .container {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 80%;
+    
+    }
+    
+    .casas {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        background-color: #dcdcdc;
+        height: 200px;
+        width: 450px;
+        cursor: pointer;
+        margin-top: 30px;
+    }
+    
+    #infos {
+    
+        padding-left: 15px;
+    
+    }
+
+    #wpp, #wpp > img {
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+        height: 40px;
+    }
+
+    .casas:hover {
+
+        background-color: #2e0747;
+        color: white;
+        transition: 0.7s;
+
+    }
+    #pesquisa:hover {
+
+        box-shadow: 1px 1px 10px 1px #2e0747;
+        transition: 1s;
+
+    }
+
+    footer {
+        background-color: #2e0747;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        padding: 50px;
+    }
+
+    footer > p {
+        
+        width: 700px;
+    }
+
+    @media screen and (max-width: 768px){
+        #pesquisa {
+
+            height: 100px;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .casas {
+            height: 350px;
+            width: 300px;
+            padding-top: 10px;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        #infos {
+            padding-top: 10px;
+            padding-left: 0px;
+        }
+
+
+        footer > p {
+        
+            width: 80%;
+        }
+    }
+        
+    
