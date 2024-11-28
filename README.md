@@ -1,12 +1,12 @@
 # Imobiliaria Conforto e Classe
-Acesse o site aqui: https://imobiliaria-conforto-e-classe.vercel.app
-****
-Site referente a uma imobiliária fictícia nomeada conforto e classe construído utilizando HTML, CSS e Javascript.
-
-Tela inicial:
-
+***
+Access the website here: https://imobiliaria-conforto-e-classe.vercel.app
+***
+Website for a fictional real estate agency called 'Conforto e Classe,' built using HTML, CSS, and JavaScript.
+***
+Homepage:
 ![img](https://github.com/DanielTomazi/ImobiliariaConforto-e-Classe/blob/main/img-demo.png)
 ***
-Segunda tela:
+About us screen:
 
 ![img](https://github.com/DanielTomazi/ImobiliariaConforto-e-Classe/blob/main/img2-demo.png)
