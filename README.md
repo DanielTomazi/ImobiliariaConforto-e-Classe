@@ -8,13 +8,13 @@
 
 ## 📸 Screenshots
 
-### 🏠 Página Inicial
+### Página Inicial
 ![Homepage](img-demo.png)
 
-### 📞 Seção de Contato
+### Sobre nós
 ![Imóveis](img-demo2.png)
 
-### 🏘️ Catálogo de Imóveis
+### Catálogo de Imóveis
 ![Contato](img-demo3.png)
 
 ## ✨ Funcionalidades
