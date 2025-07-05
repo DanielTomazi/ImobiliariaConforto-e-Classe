@@ -110,15 +110,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## 👨‍💻 Autor
 
-**Daniel Oliveira**
+**Daniel Tomazi**
 
 - 🔗 LinkedIn: [linkedin.com/in/daniel-oliveira](https://linkedin.com/in/daniel-oliveira)
-- 📧 Email: daniel_tomazi_oliveira@hotmail.com
 - 🐙 GitHub: [@DanielTomazi](https://github.com/DanielTomazi)
-
----
-
-⭐ Se você gostou deste projeto, considere dar uma estrela!
-
-![GitHub stars](https://img.shields.io/github/stars/DanielTomazi/ImobiliariaConforto-e-Classe?style=social)
-![GitHub forks](https://img.shields.io/github/forks/DanielTomazi/ImobiliariaConforto-e-Classe?style=social)
