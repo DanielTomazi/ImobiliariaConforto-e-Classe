@@ -11,10 +11,10 @@
 ### 🏠 Página Inicial
 ![Homepage](img-demo.png)
 
-### 🏘️ Catálogo de Imóveis
+### 📞 Seção de Contato
 ![Imóveis](img-demo2.png)
 
-### 📞 Seção de Contato
+### 🏘️ Catálogo de Imóveis
 ![Contato](img-demo3.png)
 
 ## ✨ Funcionalidades
