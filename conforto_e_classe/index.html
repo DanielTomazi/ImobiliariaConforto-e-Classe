@@ -5,115 +5,450 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imobiliária Conforto e Classe</title>
+    <meta name="description" content="Encontre seu imóvel dos sonhos com a Conforto e Classe. Casas e apartamentos de luxo nas melhores localizações.">
     <link rel="icon" type="image/png" href="img/logos/logoUm.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/pageUm.css">
 </head>
 <body>
     
-    <header>
-
-        <a href="html/pageDois.html">Quem somos?</a>
-        <h1>HOME</h1>
-        <img src="img/logos/logoUm.png" alt="" srcset="" height="60px">
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <img src="img/logos/logoUm.png" alt="Conforto e Classe Logo" class="logo">
+                <span class="brand-name">Conforto e Classe</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="#imoveis" class="nav-link">Imóveis</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
 
-
-    <main>
-
-        <div id="pesquisa">
-            <div>
-            <label for="nome" style="margin-right: 20px;">Tipo de imóvel:</label>
-            <input style="max-width: 250px; width: 50vw;" type="text" id="nome" name="nome" placeholder="Ex: Apartamento ou Casa">
+    <main class="main-content">
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">Encontre seu Lar dos Sonhos</h1>
+                <p class="hero-subtitle">Imóveis de luxo nas melhores localizações do Brasil</p>
+                <div class="hero-search">
+                    <div class="search-group">
+                        <label for="tipo-imovel">Tipo de imóvel</label>
+                        <select id="tipo-imovel" name="tipo-imovel">
+                            <option value="">Selecione o tipo</option>
+                            <option value="casa">Casa</option>
+                            <option value="apartamento">Apartamento</option>
+                            <option value="cobertura">Cobertura</option>
+                            <option value="terreno">Terreno</option>
+                        </select>
+                    </div>
+                    <div class="search-group">
+                        <label for="cidade">Cidade</label>
+                        <select id="cidade" name="cidade">
+                            <option value="">Escolha a cidade</option>
+                            <option value="Rio de Janeiro">Rio de Janeiro (RJ)</option>
+                            <option value="Cidade Nova">Cidade Nova (SP)</option>
+                            <option value="Curitiba">Curitiba (PR)</option>
+                            <option value="Salvador">Salvador (BA)</option>
+                            <option value="Santa Rita do Passa Quatro">Santa Rita do Passa Quatro (SP)</option>
+                            <option value="Recife">Recife (PE)</option>
+                        </select>
+                    </div>
+                    <button class="search-btn" type="button">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        Buscar
+                    </button>
+                </div>
             </div>
-            <div>    
-            <label for="cidade" style="margin-right: 20px;">Pesquisar por cidade: </label> 
-            <input id="cidade" name="cidade" type="text" style="max-width: 250px; width: 50vw;" placeholder="Escolha a cidade" list="faixa">
-            <datalist id="faixa">
-             <option value="" >Escolha</option>
-             <option value="Rio de Janeiro">(RJ)</option>
-             <option value="Cidade Nova">(SP)</option>
-             <option value="Curitiba">(PR)</option>
-             <option value="Salvador">(BA)</option>
-             <option value="Santa Rita do Passa Quatro">(SP)</option>
-             <option value="Recife">(PE)</option>
+        </section>
+
+        <section class="properties" id="imoveis">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Imóveis em Destaque</h2>
+                    <p class="section-subtitle">Descubra propriedades exclusivas selecionadas especialmente para você</p>
+                </div>
+                
+                <div class="properties-grid">
+
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="img/casas/casaUm.png" alt="Residência São Vale">
+                            <div class="property-badge">Destaque</div>
+                        </div>
+                        <div class="property-content">
+                            <h3 class="property-title">Residência São Vale</h3>
+                            <p class="property-location">Rua das Flores, 100, Bairro Jardim<br>Cidade Nova, SP</p>
+                            <div class="property-features">
+                                <span class="feature">4 quartos</span>
+                                <span class="feature">3 banheiros</span>
+                                <span class="feature">2 vagas</span>
+                            </div>
+                            <div class="property-price">R$ 1.500.000</div>
+                            <button class="property-btn">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="img/casas/casaDois.png" alt="Casa Paraíso">
+                            <div class="property-badge luxury">Luxo</div>
+                        </div>
+                        <div class="property-content">
+                            <h3 class="property-title">Casa Paraíso</h3>
+                            <p class="property-location">Rua das Estrelas, 75, Bairro Lagoa<br>Rio de Janeiro, RJ</p>
+                            <div class="property-features">
+                                <span class="feature">5 quartos</span>
+                                <span class="feature">4 banheiros</span>
+                                <span class="feature">3 vagas</span>
+                            </div>
+                            <div class="property-price">R$ 2.500.000</div>
+                            <button class="property-btn">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="img/casas/casaTres.png" alt="Residência Sol">
+                        </div>
+                        <div class="property-content">
+                            <h3 class="property-title">Residência Sol</h3>
+                            <p class="property-location">Avenida do Sol, 20, Bairro Montanha<br>Curitiba, PR</p>
+                            <div class="property-features">
+                                <span class="feature">3 quartos</span>
+                                <span class="feature">2 banheiros</span>
+                                <span class="feature">2 vagas</span>
+                            </div>
+                            <div class="property-price">R$ 1.500.000</div>
+                            <button class="property-btn">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="img/casas/casaQuatro.png" alt="Residência Lazer">
+                        </div>
+                        <div class="property-content">
+                            <h3 class="property-title">Residência Lazer</h3>
+                            <p class="property-location">Avenida dos Sonhos, 150, Bairro Praia<br>Salvador, BA</p>
+                            <div class="property-features">
+                                <span class="feature">4 quartos</span>
+                                <span class="feature">3 banheiros</span>
+                                <span class="feature">2 vagas</span>
+                            </div>
+                            <div class="property-price">R$ 1.700.000</div>
+                            <button class="property-btn">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="img/casas/casaCinco.png" alt="Residência Natureza">
+                        </div>
+                        <div class="property-content">
+                            <h3 class="property-title">Residência Natureza</h3>
+                            <p class="property-location">Rua Jequitiba Azul, 146, Bairro Nova Luz<br>Santa Rita do Passa Quatro, SP</p>
+                            <div class="property-features">
+                                <span class="feature">3 quartos</span>
+                                <span class="feature">2 banheiros</span>
+                                <span class="feature">1 vaga</span>
+                            </div>
+                            <div class="property-price">R$ 1.000.000</div>
+                            <button class="property-btn">Ver Detalhes</button>
+                        </div>
+                    </div>
+
+                    <div class="property-card">
+                        <div class="property-image">
+                            <img src="img/casas/casaSeis.png" alt="Residência Alta Montanha">
+                        </div>
+                        <div class="property-content">
+                            <h3 class="property-title">Residência Alta Montanha</h3>
+                            <p class="property-location">Rua dos Anjos, nº 50, Bairro Alto<br>Recife, PE</p>
+                            <div class="property-features">
+                                <span class="feature">4 quartos</span>
+                                <span class="feature">3 banheiros</span>
+                                <span class="feature">2 vagas</span>
+                            </div>
+                            <div class="property-price">R$ 1.800.000</div>
+                            <button class="property-btn">Ver Detalhes</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            </div>
+        </section>
 
-            <section class="container">
-
-             
-
-                <div class="casas" id="casaUm">
-                    <img src="img/casas/casaUm.png" alt="" height="180px">
-                    <div id="infos">
-                    <h3 style="border-bottom: 1px solid black;"> Residência São Vale </h3><br>
-                    <p>Rua das Flores, 100, Bairro Jardim<br> 
-                        Cidade Nova, SP</p> <br>
-                        <h4>R$ 1.500.000,00</h4>
-                    </div> </div>
-
-                    <div class="casas" id="casaDois">
-                        <img src="img/casas/casaDois.png" alt="" height="180px">
-                        <div id="infos">
-                        <h3 style="border-bottom: 1px solid black;"> Casa Paraíso</h3><br>
-                        <p>Rua das Estrelas, 75, Bairro Lagoa <br> 
-                            Cidade Rio de Janeiro, RJ</p> <br>
-                            <h4>R$ 2.500.000,00</h4>
-                        </div> </div>
+        <section class="about" id="sobre">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="section-header">
+                            <h2 class="section-title">Sobre a Conforto e Classe</h2>
+                            <p class="section-subtitle">Mais de 15 anos transformando sonhos em realidade</p>
+                        </div>
+                        
+                        <div class="about-description">
+                            <p>A <strong>Conforto e Classe</strong> nasceu da paixão por conectar pessoas aos seus lares ideais. Desde 2008, somos referência no mercado imobiliário brasileiro, oferecendo um atendimento personalizado e exclusivo.</p>
+                            
+                            <p>Nossa missão é simplificar o processo de compra, venda e locação de imóveis, garantindo transparência, segurança e satisfação total dos nossos clientes.</p>
+                            
+                            <div class="about-values">
+                                <div class="value-item">
+                                    <div class="value-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polyline points="20,6 9,17 4,12"></polyline>
+                                        </svg>
+                                    </div>
+                                    <div class="value-content">
+                                        <h4>Confiança</h4>
+                                        <p>Transparência em todas as negociações</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="value-item">
+                                    <div class="value-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="value-content">
+                                        <h4>Excelência</h4>
+                                        <p>Qualidade superior em cada detalhe</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="value-item">
+                                    <div class="value-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                            <circle cx="9" cy="7" r="4"></circle>
+                                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="value-content">
+                                        <h4>Relacionamento</h4>
+                                        <p>Atendimento personalizado e humanizado</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     
-                        <div class="casas" id="casaTres">
-                            <img src="img/casas/casaTres.png" alt="" height="180px">
-                            <div id="infos">
-                            <h3 style="border-bottom: 1px solid black;"> Residência Sol </h3><br>
-                            <p>Avenida do Sol, 20, Bairro Montanha<br> 
-                            Cidade Curitiba, PA</p> <br>
-                                <h4>R$ 1.500.000,00</h4>
-                            </div> </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Imóveis Vendidos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1000+</div>
+                            <div class="stat-label">Clientes Satisfeitos</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Anos de Experiência</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">6</div>
+                            <div class="stat-label">Cidades Atendidas</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-                            <div class="casas" id="casaQuatro">
-                                <img src="img/casas/casaQuatro.png" alt="" height="180px">
-                                <div id="infos">
-                                <h3 style="border-bottom: 1px solid black;"> Residência Lazer</h3><br>
-                                <p>Avenida dos Sonhos, 150, Bairro Praia<br> 
-                                    Cidade Salvador, BA</p> <br>
-                                    <h4>R$ 1.700.000,00</h4>
-                                </div> </div>
+        <section class="contact" id="contato">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Entre em Contato</h2>
+                    <p class="section-subtitle">Estamos prontos para ajudá-lo a encontrar o imóvel dos seus sonhos</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Telefone</h3>
+                                <p>(11) 99999-9999</p>
+                                <p>(11) 3333-3333</p>
+                            </div>
+                        </div>
 
-                                <div class="casas" id="casaCinco">
-                                    <img src="img/casas/casaCinco.png" alt="" height="180px">
-                                    <div id="infos">
-                                    <h3 style="border-bottom: 1px solid black;"> Residência Natureza </h3><br>
-                                    <p>Rua Jequitiba Azul, 146, Bairro Nova Luz<br> 
-                                        Santa Rita do Passa Quatro, SP</p> <br>
-                                        <h4>R$ 1.000.000,00</h4>
-                                    </div> </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h3>E-mail</h3>
+                                <p>contato@confortoclasse.com.br</p>
+                                <p>vendas@confortoclasse.com.br</p>
+                            </div>
+                        </div>
 
-                                    <div class="casas" id="casaSeis">
-                                        <img src="img/casas/casaSeis.png" alt="" height="180px">
-                                        <div id="infos">
-                                        <h3 style="border-bottom: 1px solid black;"> Residência Alta Montanha </h3><br>
-                                        <p>Rua dos Anjos, nº 50, Bairro Alto, 
-                                            Cidade Recife, PE<br> 
-                                        </p> <br>
-                                            <h4>R$ 1.800.000,00</h4>
-                                        </div> </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Endereço</h3>
+                                <p>Av. das Américas, 1500</p>
+                                <p>Barra da Tijuca - Rio de Janeiro, RJ</p>
+                            </div>
+                        </div>
 
-           <a href="https://wa.me/5511976189444" id="wpp"><img  src="img/logos/wpp.png"  alt=""></a> 
-            </section>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12,6 12,12 16,14"></polyline>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Horário de Funcionamento</h3>
+                                <p>Segunda a Sexta: 8h às 18h</p>
+                                <p>Sábado: 9h às 15h</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form class="form">
+                            <div class="form-group">
+                                <label for="nome">Nome Completo *</label>
+                                <input type="text" id="nome" name="nome" required>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">E-mail *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefone">Telefone *</label>
+                                    <input type="tel" id="telefone" name="telefone" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="interesse">Interesse</label>
+                                <select id="interesse" name="interesse">
+                                    <option value="">Selecione seu interesse</option>
+                                    <option value="comprar">Comprar imóvel</option>
+                                    <option value="vender">Vender imóvel</option>
+                                    <option value="alugar">Alugar imóvel</option>
+                                    <option value="investir">Investir</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem *</label>
+                                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte-nos mais sobre o que você está procurando..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="form-btn">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22,2 15,22 11,13 2,9 22,2"></polygon>
+                                </svg>
+                                Enviar Mensagem
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    
-    
-    <footer>
 
-        <p>A empresa “Conforto & Classe” é fictícia, assim como os produtos, preços, 
-            endereços, imagens e quaisquer outras informações. Esse site tem o único intuito de agregar ao meu portfólio
-            além colaborar para os estudos em programação. Visto isso, alguns botões não possuem qualquer script
-            que promova a coleta de dados ou execute o ato de compra, servindo apenas para ilustração. <br>
-           <br> Para mais informações acesse a aba "Quem somos?".
-        </p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <img src="img/logos/logoUm.png" alt="Conforto e Classe Logo" class="footer-logo">
+                        <h3>Conforto e Classe</h3>
+                        <p>Realizando sonhos há mais de 15 anos. Encontre o imóvel perfeito com quem entende do assunto.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <img src="img/logos/insta.png" alt="Instagram">
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <img src="img/logos/linkedin.png" alt="LinkedIn">
+                        </a>
+                        <a href="#" class="social-link" aria-label="WhatsApp">
+                            <img src="img/logos/wpp.png" alt="WhatsApp">
+                        </a>
+                    </div>
+                </div>
 
+                <div class="footer-section">
+                    <h4>Navegação</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#imoveis">Imóveis</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Compra de Imóveis</a></li>
+                        <li><a href="#">Venda de Imóveis</a></li>
+                        <li><a href="#">Locação</a></li>
+                        <li><a href="#">Avaliação</a></li>
+                        <li><a href="#">Consultoria</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="footer-contact">
+                        <p><strong>Telefone:</strong> (11) 99999-9999</p>
+                        <p><strong>E-mail:</strong> contato@confortoclasse.com.br</p>
+                        <p><strong>Endereço:</strong> Av. das Américas, 1500<br>Barra da Tijuca - Rio de Janeiro, RJ</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-disclaimer">
+                    <p><strong>Aviso Legal:</strong> A empresa "Conforto & Classe" é fictícia, assim como os produtos, preços, endereços, imagens e demais informações apresentadas. Este site foi desenvolvido exclusivamente para fins educacionais e de portfólio. Os botões e formulários são meramente ilustrativos e não executam transações reais.</p>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy; 2025 Conforto e Classe. Todos os direitos reservados.</p>
+                    <p>Desenvolvido por <a href="#" class="dev-link">Daniel Oliveira</a></p>
+                </div>
+            </div>
+        </div>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 </html>

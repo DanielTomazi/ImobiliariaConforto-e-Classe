@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Visualizar Site - Live Server",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-Command",
+				"cd 'conforto_e_classe' && python -m http.server 8000"
+			],
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
