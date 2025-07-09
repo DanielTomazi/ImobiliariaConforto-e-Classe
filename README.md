@@ -94,16 +94,6 @@ npx serve conforto_e_classe
 
 Este projeto foi desenvolvido como um site para uma imobiliária fictícia chamada "Conforto e Classe". O objetivo foi criar uma experiência digital moderna e profissional que transmitisse confiança e sofisticação para potenciais clientes.
 
-**⚠Aviso**: Este é um projeto educacional. A empresa "Conforto & Classe" é fictícia, assim como os produtos, preços e informações apresentadas.
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-- 🐛 Reportar bugs
-- 💡 Sugerir melhorias
-- 🔧 Enviar pull requests
-
 ## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
