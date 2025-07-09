@@ -1,12 +1,12 @@
-# 🏡 Imobiliária Conforto e Classe
+# Imobiliária Conforto e Classe
 
 > Site moderno e responsivo para imobiliária fictícia desenvolvido com HTML5, CSS3 e JavaScript
 
-## 🚀 Demonstração
+## Demonstração
 
-**🔗 [Acesse o site aqui](https://imobiliaria-conforto-e-classe.vercel.app)**
+**[Acesse o site aqui](https://imobiliaria-conforto-e-classe.vercel.app)**
 
-## 📸 Screenshots
+## Screenshots
 
 ### Página Inicial
 ![Homepage](img-demo.png)
@@ -17,17 +17,17 @@
 ### Catálogo de Imóveis
 ![Contato](img-demo3.png)
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-- **🎨 Design Moderno**: Interface elegante e profissional
-- **📱 Totalmente Responsivo**: Funciona perfeitamente em todos os dispositivos
-- **🔍 Sistema de Busca**: Filtragem por tipo de imóvel e localização
-- **🏠 Catálogo de Propriedades**: Showcase de imóveis com detalhes completos
-- **📧 Formulário de Contato**: Sistema de contato funcional com validação
-- **⚡ Navegação Suave**: Scroll suave entre seções
-- **🎯 Menu Responsivo**: Menu hamburger para dispositivos móveis
+- **Design Moderno**: Interface elegante e profissional
+- **Totalmente Responsivo**: Funciona perfeitamente em todos os dispositivos
+- **Sistema de Busca**: Filtragem por tipo de imóvel e localização
+- **Catálogo de Propriedades**: Showcase de imóveis com detalhes completos
+- **Formulário de Contato**: Sistema de contato funcional com validação
+- **Navegação Suave**: Scroll suave entre seções
+- **Menu Responsivo**: Menu hamburger para dispositivos móveis
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5**: Estrutura semântica e acessível
 - **CSS3**: Estilos modernos com Flexbox e Grid
@@ -35,7 +35,7 @@
 - **Google Fonts**: Tipografia profissional (Inter + Playfair Display)
 - **SVG Icons**: Ícones vetorizados para melhor qualidade
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 conforto_e_classe/
@@ -53,14 +53,14 @@ conforto_e_classe/
     └── logos/          # Logos e ícones
 ```
 
-## 🎯 Seções do Site
+## Seções do Site
 
 1. **Home**: Apresentação principal com sistema de busca
 2. **Imóveis**: Catálogo com cards interativos das propriedades
 3. **Sobre**: História da empresa e valores corporativos
 4. **Contato**: Formulário de contato e informações da empresa
 
-## 💡 Características Técnicas
+## Características Técnicas
 
 - ✅ **SEO Otimizado**: Meta tags e estrutura semântica
 - ✅ **Performance**: Código otimizado e imagens comprimidas
@@ -68,7 +68,7 @@ conforto_e_classe/
 - ✅ **Cross-browser**: Compatível com todos os navegadores modernos
 - ✅ **Mobile First**: Desenvolvido pensando primeiro em dispositivos móveis
 
-## 🔧 Como Executar
+## Como Executar
 
 1. Clone o repositório:
 ```bash
@@ -90,13 +90,13 @@ python -m http.server 8000
 npx serve conforto_e_classe
 ```
 
-## 📝 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto foi desenvolvido como um site para uma imobiliária fictícia chamada "Conforto e Classe". O objetivo foi criar uma experiência digital moderna e profissional que transmitisse confiança e sofisticação para potenciais clientes.
 
-**⚠️ Aviso**: Este é um projeto educacional. A empresa "Conforto & Classe" é fictícia, assim como os produtos, preços e informações apresentadas.
+**⚠Aviso**: Este é um projeto educacional. A empresa "Conforto & Classe" é fictícia, assim como os produtos, preços e informações apresentadas.
 
-## 🤝 Contribuição
+## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para:
 
@@ -104,11 +104,11 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 - 💡 Sugerir melhorias
 - 🔧 Enviar pull requests
 
-## 📄 Licença
+## Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## 👨‍💻 Autor
+## Autor
 
 **Daniel Tomazi**
 
